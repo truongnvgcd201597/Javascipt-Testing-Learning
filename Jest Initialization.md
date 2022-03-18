@@ -20,7 +20,7 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 `yarn add --dev jest`
 
-*Or [npm](https://www.npmjs.com/package/jest):*
+Or [npm](https://www.npmjs.com/package/jest):
 
 `npm install --save-dev jest.`
 
