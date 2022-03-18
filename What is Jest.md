@@ -4,7 +4,7 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 ![](Aspose.Words.991e4c1f-9b95-4dd5-9c31-44424fa491e4.001.png)It works with projects using: [Babel](https://babeljs.io/), [TypeScript](https://www.typescriptlang.org/), [Node](https://nodejs.org/), [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/) and more!
 **Setup Jest Framework:**
-![This is a alt text.](https://bitly.com.vn/wwoxxn "Jest Testing Framework.")
+![This is a alt text.](https://miro.medium.com/max/1400/1*U-TwjPREbLSVBG0lrowk3g.png "Jest Testing Framework.")
 ## Install VSCode Extension
 
 - [Jest.](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest#the-aim)
