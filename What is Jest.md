@@ -1,17 +1,17 @@
-##What is Jest?
+## What is Jest?
 
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 ![](Aspose.Words.991e4c1f-9b95-4dd5-9c31-44424fa491e4.001.png)It works with projects using: [Babel](https://babeljs.io/), [TypeScript](https://www.typescriptlang.org/), [Node](https://nodejs.org/), [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/) and more!
 **Setup Jest Framework:**
-
-##Install VSCode Extension:
+![This is a alt text.](https://bitly.com.vn/wwoxxn "Jest Testing Framework.")
+## Install VSCode Extension
 
 - [Jest.](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest#the-aim)
 - [Jest snippets.](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
 - [Jest runner.](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
 
-##Setup for projects:
+## Setup for projects:
 
 --Step 1: NPM initialization.
 
@@ -32,11 +32,10 @@ So we'll be using Babel to self-compile converting the ECMAScript 2015+ code int
 `yarn add --dev babel-jest @babel/core @babel/preset-env`
 
 Next, create a babel.config.js file in the root of your project to configure Babel to target the current version of Node:
-
-`module.exports = {`
-
-   `presets: [['@babel/preset-env', {targets: {node: 'current'}}]],`
-
-`};`
+```
+module.exports = {
+   presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+};
+```
 
 
