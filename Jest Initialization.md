@@ -30,7 +30,7 @@ So we'll be using Babel to self-compile converting the ECMAScript 2015+ code int
 ```
 yarn add --dev babel-jest @babel/core @babel/preset-env
 ```
-Next, create a babel.config.js file in the root of your project to configure Babel to target the current version of Node:
+Next, create a ```babel.config.js``` file in the root of your project to configure Babel to target the current version of Node:
 ```
 module.exports = {
    presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
