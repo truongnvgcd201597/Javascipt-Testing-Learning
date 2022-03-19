@@ -113,3 +113,4 @@ expect(() => compileAndroidCode()).toThrow('you are using the wrong JDK');
 expect(() => compileAndroidCode()).toThrow(/JDK/);*
 });
 ```
+*Reference source:  [Matchers - Jest.io](https://jestjs.io/docs/using-matchers)*
