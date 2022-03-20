@@ -1,4 +1,4 @@
-### Example 1:
+### Example:
 ```
 export function findMaxI(numberList) {
     if(!Array.isArray(numberList) || numberList.length === 0) return undefined;
