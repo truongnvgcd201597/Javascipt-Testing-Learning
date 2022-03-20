@@ -9,6 +9,13 @@ export function findMaxI(numberList) {
     return max;
 }
 console.log(findMaxI([1,2,3,4,6,7,10]));
+OR
+function findMaxI(numberList) {
+    if(!Array.isArray(numberList) || numberList.length === 0) return undefined;
+    let max = numberList[0];
+    return numberList.reduce((acc, curr) => {curr > acc ? acc = curr : acc; return acc;});
+}
+console.log(findMaxI([1,2,3,4,6,7,10]));
 ```
 #### Test:
 ```
